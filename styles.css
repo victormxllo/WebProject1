@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202020; /* #24252A */
+}
+
+.l1, .l2, .l3, a, .cbutton {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0,3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(70, 2, 197);
+}
+
+.cbutton {
+    padding: 9px 25px;
+    background-color: rgb(70, 2, 197);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.cbutton:hover {
+    background-color: rgb(60, 2, 168);
+}
+
+.title1 {
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    color: #edf0f1;
+}
+
+.subtitle1 {
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #edf0f1;
+}
+
+.int {
+    text-align: justify;
+    font-size: 15px;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    color: #edf0f1;
+}
+
+.pic1 {
+    padding: 20px;
+}
+
+figure {
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+}
+
+.yepic {
+    display: flex;
+    width: 499px;
+    height: 333px;
+    
+}
+
+.pic1inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #edf0f1;
+}
+
+.subtitle2 {
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.pl {
+    text-align: justify;
+    font-size: 15px;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    color: white;
+}
+
+.pic2 {
+    padding: 20px;
+}
+
+.cdpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 494px;
+    height: 330px;
+}
+
+.pic2inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    width: 50%;
+
+}
+
+.subtitle3 {
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.pj {
+    text-align: justify;
+    font-size: 15px;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    color: white;
+}
+
+.ab1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.tcdppic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab1inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.lrpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab2inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.gdpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab3inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab4 {
+    padding: 20px;
+    text-align: center;
+}
+
+.eightehpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab4inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab5 {
+    padding: 20px;
+    text-align: center;
+}
+
+.mbdatnpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab5inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab6 {
+    padding: 20px;
+    text-align: center;
+}
+
+.yeezuspic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.yeezusforce {
+    width: 332px;
+    height: 332px
+}
+
+.ab6inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab7 {
+    padding: 20px;
+    text-align: center;
+}
+
+.tloppic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab7inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab8 {
+    padding: 20px;
+    text-align: center;
+}
+
+.yealbumpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab8inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab9 {
+    padding: 20px;
+    text-align: center;
+}
+
+.jikpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab9inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab10 {
+    padding: 20px;
+    text-align: center;
+}
+
+.dpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab10inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab11 {
+    padding: 20px;
+    text-align: center;
+}
+
+.d2pic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab11inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab12 {
+    padding: 20px;
+    text-align: center;
+}
+
+.wttpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab12inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.ab13 {
+    padding: 20px;
+    text-align: center;
+}
+
+.ksgpic {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    width: 334px;
+    height: 334px;
+}
+
+.ab13inf {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.subtitle4 {
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    
+}
+
+.page__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 42%;
+}
+
+.page2button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page2button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+.page3button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page3button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+.page4button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page4button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+
+.role1 {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px 0%;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.socialnet {
+    bottom: 10px;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border: 1px solid #ffffff;
+    padding: 10px 0%;
+    text-align: center;
+}
+
+.fa {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+.socialnet a:hover {
+    transition: all 0,3s ease 0s;
+}
+
+.socialnet a:hover {
+    color: rgb(60, 2, 168);
+}

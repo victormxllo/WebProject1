@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202020; /* #24252A */
+}
+
+.l1, .l2, .l3, a, .cbutton {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0,3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(70, 2, 197);
+}
+
+.cbutton {
+    padding: 9px 25px;
+    background-color: rgb(70, 2, 197);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.cbutton:hover {
+    background-color: rgb(60, 2, 168);
+}
+
+.page__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 42%;
+}
+
+.page1button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page1button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+.page3button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page3button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+.page4button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+}
+
+.page4button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 2, 168);
+}
+
+
+.role2 {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px 0%;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
